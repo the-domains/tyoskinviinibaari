@@ -1,29 +1,41 @@
-name: tyoskinviinibaari
-favicon: null
-layout_spectrum: 0.36533521860837936
-typography_spectrum: 0.9003900731913745
 title: Työskin Viinibaari
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.0721229356713593
+  brandStrength: 0.8082438
+  lightness: 0.5471491820644587
+  brandColors:
+    - '#191917'
+    - '#FEFCFD'
+    - '#A26435'
+    - '#5F3C28'
+    - '#CF8D4F'
+  rhythmicContrast: 0.3485990336630493
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: tyoskinviinibaari
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
-  brandStrength: 0.8683535966556519
-  lightness: 0.5471491820644587
-  saturation: 0.0721229356713593
-  rhythmicContrast: 0.34859903366304934
-purpose: []
+typography_spectrum: 0.9003900731913745
+layout_spectrum: 0.3653352186083794
